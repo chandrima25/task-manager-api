@@ -5,6 +5,10 @@ A REST API for task management, built with **FastAPI**, **SQLAlchemy**, and **SQ
 > Built as a portfolio project to demonstrate REST API design, Python backend development, and separation of API and database logic.
 
 ---
+## Live Demo
+
+- 🚀 **API (Swagger UI):** https://task-manager-api-2pyu.onrender.com/docs
+- 🌐 **Frontend (Streamlit):** https://task-manager-api.streamlit.app
 
 ## Features
 
@@ -137,7 +141,6 @@ curl -X PATCH "http://localhost:8000/tasks/1" \
 - [ ] Add JWT authentication (user accounts)
 - [ ] Switch to PostgreSQL for production
 - [ ] Write unit tests with `pytest`
-- [ ] Deploy to Railway or Render
 - [ ] Add task categories/tags
 
 ---
